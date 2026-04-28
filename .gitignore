@@ -1,0 +1,10 @@
+/node_modules
+lego.png
+lego.svg
+chores-list.md
+chores-Saturday.md
+package-lock.json
+package.json
+/pdfs
+save-to-pdf-command.txt
+.env
