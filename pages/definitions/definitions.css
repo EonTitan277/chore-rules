@@ -1,0 +1,72 @@
+a:link, a:visited {
+  color: #0059ff;
+}
+
+em {
+  font-weight: 600;
+}
+
+/* ── DEFINITION CARD ── */
+.def-card {
+  max-width: 560px;
+  margin: 60px auto;
+  background: var(--card);
+  border-radius: 20px;
+  padding: 32px 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.def-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.def-emoji {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.def-word {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.4rem;
+  color: var(--blue);
+  line-height: 1.1;
+}
+
+.def-meaning {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.65;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+/* ── OPTIONAL BLOCKS ── */
+.def-block {
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin-top: 14px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.def-block-label {
+  font-family: 'Fredoka One', cursive;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.def-example {
+  background: #dbeafe;
+}
+.def-example .def-block-label { color: var(--blue); }
+
+.def-note {
+  background: #fef9c3;
+}
+.def-note .def-block-label { color: #b45309; }

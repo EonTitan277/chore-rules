@@ -3,7 +3,7 @@
     --green:   #22c55e;
     --yellow:  #f59e0b;
     --red:     #ef4444;
-    --purple:  #a855f7;
+    --purple:  #9147d6;
     --bg:      #f0f7ff;
     --card:    #ffffff;
     --text:    #1e293b;
@@ -71,8 +71,11 @@ header p.subtitle {
 .blue .section-icon { background: #dbeafe; }
 .blue .section-title { color: var(--blue); }
 
-.yellow .section-icon { background: #fef9c3; }
-.yellow .section-title { color: #b45309; }
+.purple .section-icon { background: #eedaff; }
+.purple .section-title { color: var(--purple);}
+
+.yellow .section-icon { background: rgb(255, 248, 217); }
+.yellow .section-title { color: #bb8c0a; }
 
 /* ── QUICK REFERENCE TABLE ── */
 .quick-ref {

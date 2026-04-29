@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 a:link, a:visited {
-  color: #000000;
+  color: #0059ff;
   font-weight: 700;
   text-decoration: none;
 }
@@ -69,6 +69,20 @@ header p.subtitle {
   color: var(--text);
 }
 .intro-box strong { color: var(--blue); }
+
+/* ── OUTRO BOX ── */
+.outro-box {
+  background: linear-gradient(135deg, #dbfeea 0%, #eefee9 100%);
+  border-left: 6px solid var(--green);
+  border-radius: 16px;
+  padding: 22px 26px;
+  max-width: 720px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text);
+}
+.outro-box strong { color: var(--green); }
 
 /* ── SECTION ── */
 .section {
@@ -144,7 +158,7 @@ header p.subtitle {
   justify-content: center;
   font-weight: 800;
   font-size: 0.85rem;
-  flex-shrink: 0;
+  flex-shrink: 1;
   margin-top: 1px;
   color: #fff;
 }
@@ -244,6 +258,21 @@ header p.subtitle {
 }
 .savings-item span {font-size: 1.3rem;}
 .savings-item .tm {width: 1.4em; margin: 2px;}
+
+/* MOM NOTE BOX */
+.screen-note-box {
+  background: linear-gradient(135deg, #eafff2 0%, #e9ffe9 100%);
+  border: 2px dashed var(--green);
+  border-radius: 16px;
+  padding: 18px 24px;
+  margin-top: 16px;
+}
+.screen-note-box .screen-note-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.1rem;
+  color: #15803d;
+  margin-bottom: 10px;
+}
 
 /* EMERGENCY BOX */
 .emergency-box {
