@@ -1,13 +1,5 @@
 :root {
-    --blue:    #3b82f6;
-    --green:   #22c55e;
-    --yellow:  #f59e0b;
-    --red:     #ef4444;
     --purple:  #9147d6;
-    --bg:      #f0f7ff;
-    --card:    #ffffff;
-    --text:    #1e293b;
-    --muted:   #64748b;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -81,6 +73,7 @@ header p.subtitle {
 .quick-ref {
     max-width: 720px;
     margin: 0 auto 40px;
+    scroll-margin-top: 12px;
 }
 .quick-ref table {
     width: 100%;

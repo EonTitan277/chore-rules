@@ -51,7 +51,7 @@ require('dotenv').config();
         fs.mkdirSync(outputDir);
     }
 
-    const basePath = "E:\\GoogleOne\\desktop-sync\\Projects\\Commision\\Dev\\Geralt's-chore-rules\\";
+    const basePath = __dirname;
     const viewWidth = usePadding ? 1000 : 900;
     const TB_PADDING = usePadding ? 40 : 2;
 

@@ -16,11 +16,6 @@
 html {
   scroll-behavior: smooth;
 }
-a:link, a:visited {
-  color: #0059ff;
-  font-weight: 700;
-  text-decoration: none;
-}
 
 body {
   font-family: 'Nunito', sans-serif;
@@ -126,6 +121,16 @@ header p.subtitle {
 .teal   .section-title { color: #0f766e; }
 .magenta .section-icon { background: #fce7f3; }
 .magenta .section-title { color: #be185d; }
+
+/* HYPERLINKS */
+a:link {
+  font-weight: 700;
+  text-decoration: none;
+}
+.blue a:link    { color: #3e81ee; }
+.blue a:hover   { color: #6ea6ff; }
+.green a:link   { color: #23c45e; }
+.green a:hover  { color: #44da7b; }
 
 /* ── CARD ── */
 .card {

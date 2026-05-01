@@ -8,3 +8,4 @@ package.json
 /pdfs
 save-to-pdf-command.txt
 .env
+*.bak
